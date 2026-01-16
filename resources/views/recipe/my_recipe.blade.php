@@ -18,9 +18,7 @@
 
             <!-- Left Info Panel -->
             <div class="md:w-2/3 bg-white rounded-lg shadow p-6">
-                <h2 class="text-lg font-semibold mb-4">Performance</h2>
-
-                <canvas id="performanceChart" class="w-full h-64 md:h-86"></canvas>
+                <livewire:recipe.overall-performance/>
             </div>
 
             <!-- Right Chart Panel -->

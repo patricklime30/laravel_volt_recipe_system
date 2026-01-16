@@ -15,8 +15,8 @@
         <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
 
         <!-- chart.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.min.js"></script>
-        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
